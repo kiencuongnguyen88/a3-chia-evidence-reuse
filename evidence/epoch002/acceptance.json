@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "scope": "development_only",
+  "checks": {
+    "70_method_scenarios": true,
+    "all_decisions_agree": true,
+    "all_record_hashes_oracles_leases_costs_verified": true,
+    "freeze.json_hashes": true,
+    "reduction_freeze.json_hashes": true,
+    "C035_exact": true,
+    "C036_exact": true,
+    "champion_manifest_exact": true,
+    "champion_files_exact": true,
+    "authority_exact": true,
+    "chia_clean": true,
+    "progressive-b-discovery_clean": true,
+    "checkpoint_chain": true,
+    "B2_B3_FULL_A_runnable": true,
+    "two_shared_planner_consumers": true,
+    "external_terminal_durability": true,
+    "exact_Section14_status_readback": true,
+    "restored_champion_smoke": true,
+    "within_fixed_budget": true
+  },
+  "heldout_opened": false,
+  "heldout_manifest_note": "prospective specification hashes; canonical split identity requires Human confirmation",
+  "champion_replaced": false,
+  "next_move": "HUMAN_GATE_AUTHORIZE_OR_REJECT_OPENING_FROZEN_G2_G3",
+  "terminal_archive": {
+    "status": "PASS",
+    "bundle": "export/epoch002_terminal_20260922T093933Z.tar.gz",
+    "remote": "PRIVATE_DURABLE_EVIDENCE_POINTER_REDACTED",
+    "sha256": "5bd628758dedd3c6c0782738592bf8a5e60d3e23796cb9f8adf3376c2a6f081d",
+    "readback_sha256": "5bd628758dedd3c6c0782738592bf8a5e60d3e23796cb9f8adf3376c2a6f081d",
+    "champion_manifest_exact": true,
+    "champion_files_exact": true,
+    "Section14_status_byte_exact": true,
+    "bytes": 6538282
+  },
+  "public_projection": {
+    "sanitized_for_public_release": true,
+    "sanitized_fields": [
+      "terminal_archive.remote"
+    ],
+    "internal_source_sha256_before_sanitization": "b1e7a46351c4a520c4b432de90010f811ab8d4e213fc84ba28c39dffd58ba836",
+    "scientific_values_changed": false
+  }
+}
