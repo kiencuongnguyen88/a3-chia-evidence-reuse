@@ -57,7 +57,7 @@ A successful acceptance is an artifact-portability result only. It does not chan
 
 - Project license: **BSD-3-Clause** (`LICENSE`).
 - Third-party attribution: `THIRD_PARTY_NOTICES.md`.
-- Full-loop acceptance: `results/public_ful_loop_acceptance/FULL_LOOP_ACCEPTANCE.json`.
+- Full-loop acceptance: `results/public_full_loop_acceptance/FULL_LOOP_ACCEPTANCE.json`.
 - Public durability receipt: `results/public_full_loop_acceptance/ACCEPTANCE_DURABILITY_PUBLIC_RECEIPT.json`.
 - Public-sanitization ledger: `provenance/PUBLIC_SANITIZATION_LEDGER.md`.
 
