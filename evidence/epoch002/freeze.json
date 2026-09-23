@@ -1,0 +1,17 @@
+{
+  "time": "2026-09-22T09:27:17.014676+00:00",
+  "files": {
+    "candidate/epoch002/gpu_worker.py": "1cfdb3352f732a7400986e8a8617d212f48433304b352237efb477285a31dc1a",
+    "candidate/epoch002/baseline.py": "1ccacbb970d55f7ca9fb35dbfb273da45a08cf3bbd9dd49b54cb96a4fe960830",
+    "candidate/epoch002/challenger.py": "1248a935f5f6a204c909661bf86155f0e1459e824889dfb74d5f9c523bc4011d",
+    "candidate/epoch002/planner.py": "fbad8ad72f47c46400df14fe322a6f4c7aa20a7e910472e5da615042c08dc356",
+    "candidate/epoch002/challenger_v2.py": "dc6c2364c612561dd58f88fc8843d536cb803d5ab7e2c633968de9e6ac7e03c1",
+    "candidate/epoch002/operations.py": "7f6017fb87492b838dbe859eeff18502e232d6edaf1582d0a57ab6f052d88bc0",
+    "candidate/epoch002/freeze.py": "f80a788b03f6ccdf466813316fc8ba3c75db420d0294db1b36f0fcd37497f666",
+    "evidence/epoch002/protocol.json": "0d3bcb7ff929eba694cfa94a6184368ae05899dfeef9e06a4a62a61e48931e48",
+    "evidence/epoch002/contract.json": "106443d97e1813c4862c786c7957325e217bdab194fe93487c154136dd2a0f1c",
+    "evidence/epoch002/affine_matrix.json": "fad49bbf777224203c0bb24727774e9a1984cbb5e96da577e417ff4e16d60dea",
+    "evidence/epoch002/environment.json": "556c8bb270287ded62c072563aae4632bff9b52fb2d53a2521b127648ce0de61"
+  },
+  "held_out_opened": false
+}
