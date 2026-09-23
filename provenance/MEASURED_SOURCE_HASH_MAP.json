@@ -1,0 +1,12 @@
+{
+  "state": "MEASURED_PRIVATE_SOURCE_HASHES_ONLY",
+  "source_archive_sha256": "6e3038e07d695787fddb745b0f63ace521ea960502f7b6b8e84524eb4092c95a",
+  "note": "Public wrappers are portability derivatives. These hashes bind exact measured private originals.",
+  "files": {
+    "candidate/epoch002/run.py": "7957674ca749a8cf5be32df49533ba989fc4b087596ef6ff8795f44a00198045",
+    "candidate/epoch002/run.sh": "da121071c8496aa62f36ea9da9d4d5598acda1c4a3e6c1734b8a947d42412d16",
+    "champion/verify_chia.py": "75e45dbf211e4286476305884cc452711f8a5b7125791f34eb8dcc6cb5152ff3",
+    "champion/verify.sh": "f707e520299281bc489ef5071bfb5daa60879ce8849b9f1ec78c754a732cb08e",
+    "champion/README.md": "797bff0f9742ab482e18472926e2288680e7639c2732b539271401790962a049"
+  }
+}
