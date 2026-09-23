@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "scope": "development_only",
+  "objective": {
+    "material_geomean_speedup": 1.15,
+    "min_active_shape_speedup": 0.95,
+    "weights": "per scenario; zero-weight shapes outside decision scope",
+    "decision": "PROMOTE iff active shapes all pass regression bound and weighted geomean >=1.15; else REJECT; unknown never promotes"
+  },
+  "samples": 61,
+  "batch": 100,
+  "warmup": 30,
+  "oracle": "Epoch001 affine CPU float64 exact oracle; reduction exact binary fraction CPU float64 row sums",
+  "lease": "fresh idle query before each official cell; monitor every 100ms and at boundaries; foreign PID quarantines cell",
+  "budget": {
+    "per_method_per_scenario_max_cells": 5,
+    "global_live_cells_max": 180,
+    "per_cell_timeout_seconds": 180,
+    "epoch_wall_hours": 3,
+    "measured_gpu_seconds_max": 600,
+    "expiry": "2026-09-24T06:59:00Z",
+    "reserve_hours": 6
+  },
+  "baseline": "B0 independent full rerun, B1 real CHIA tag/cache with inherited protocol hashing, B2 bundle+typed fixed cache, B3 B2 with largest weighted shape first and safe early reject, FULL_A resolved evidence scope plus decision-impact/cost ordering and safe early reject",
+  "seed": "Epoch001 B0 actual paired 61-sample corpus; historical raw timing evidence reused only under matching typed dependencies, sampler equivalence and environment. Temporal stationarity is a development assumption checked against fresh B0, not an independent lease proof.",
+  "cost": "CUDA event summed durations of timed paired batches only; excludes compilation/oracle/warmup. Live launches and subprocess wall measured separately. Reuse contributes zero new sampled GPU seconds. No replay charged as live."
+}
