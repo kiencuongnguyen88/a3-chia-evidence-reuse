@@ -1,0 +1,14 @@
+{
+  "control/AUTHORITY.yaml": "5f4909f7b59b44f1d156e0799e307772f34d0d99ed2af663f502e5ca3c9a3993",
+  "control/SEARCH_ENVELOPE.yaml": "f5fefe0d272a1c4ae5d8ba9546928e733ff8236c7d97c7ffd8363b50972fa486",
+  "control/RUN_STATE.json": "fa8e6284167ffa1532542fc63bbb44c5120f38130457d262726067317b664ae4",
+  "checkpoints/C_035.json": "7dafdf6c14263cb5e7aac0a3b68323c696fbdb461f55897514445657df729833",
+  "checkpoints/C_036.json": "3a301085a2476804be5c8e74334cc01418aa865d769ea810dc822053cd892f56",
+  "champion/manifest.json": "f8c2457edb77f0357d52d55954b54de86570e2ef83213bca7cbdd819cf187e30",
+  "export/WORK_NATIVE_EPOCH_STATUS.yaml": "5b83c72f164611e24d33c47bf9a6672d90c2e98971efee3cd18ea3296926a5e9",
+  "evidence/TRAJECTORY_REPORT.md": "a9cef87d663cfb9c921db62625bece05adf9d5c4e7076abbf212753921ad830d",
+  "evidence/acceptance.json": "bce6182c2d11e5272c682ff3eda024d5cc8aa3868da18ee796d696596803c4b4",
+  "evidence/B0/summary.json": "f564d5aadf3d7d42edb6499fbf665785de1f8d7374cc89cad8600ebd9b15005f",
+  "evidence/B1/summary.json": "24c06b3a5172d5ddecf491009f1f2c7a4bba42ef2669cbe02b9bd9234e63f462",
+  "evidence/durability/terminal_readback.json": "06ab9c6af35e195263d4b89ba11e716a9db39cdd3800fca8c1bc4282c5b68b67"
+}
