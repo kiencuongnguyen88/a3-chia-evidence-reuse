@@ -1,0 +1,1522 @@
+[
+  {
+    "path": "affine",
+    "scenario": "presentation",
+    "method": "FULL_A_REPLAY",
+    "live_vs_replay": "replay_only",
+    "new_H100_measurements": 0,
+    "new_GPU_seconds": 0,
+    "replayed_measurement_demand": 0,
+    "counterfactual_sampled_gpu_seconds": 0,
+    "planner_wall_seconds": 0.0008382849919144064,
+    "decision": "PROMOTE",
+    "agreement": true,
+    "events": [
+      {
+        "n": 4096,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n4096.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 262144,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n262144.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 1048576,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n1048576.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 16777216,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n16777216.json",
+        "counterfactual_gpu_seconds": 0
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "path": "affine",
+    "scenario": "presentation",
+    "method": "WITHOUT_TYPED_SCOPE",
+    "live_vs_replay": "replay_only",
+    "new_H100_measurements": 0,
+    "new_GPU_seconds": 0,
+    "replayed_measurement_demand": 0,
+    "counterfactual_sampled_gpu_seconds": 0,
+    "planner_wall_seconds": 0.0007965890108607709,
+    "decision": "PROMOTE",
+    "agreement": true,
+    "events": [
+      {
+        "n": 4096,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n4096.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 262144,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n262144.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 1048576,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n1048576.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 16777216,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n16777216.json",
+        "counterfactual_gpu_seconds": 0
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "path": "affine",
+    "scenario": "presentation",
+    "method": "WITHOUT_SELECTOR",
+    "live_vs_replay": "replay_only",
+    "new_H100_measurements": 0,
+    "new_GPU_seconds": 0,
+    "replayed_measurement_demand": 0,
+    "counterfactual_sampled_gpu_seconds": 0,
+    "planner_wall_seconds": 0.0007247990142786875,
+    "decision": "PROMOTE",
+    "agreement": true,
+    "events": [
+      {
+        "n": 4096,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n4096.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 262144,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n262144.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 1048576,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n1048576.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 16777216,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n16777216.json",
+        "counterfactual_gpu_seconds": 0
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "path": "affine",
+    "scenario": "weights",
+    "method": "FULL_A_REPLAY",
+    "live_vs_replay": "replay_only",
+    "new_H100_measurements": 0,
+    "new_GPU_seconds": 0,
+    "replayed_measurement_demand": 0,
+    "counterfactual_sampled_gpu_seconds": 0,
+    "planner_wall_seconds": 0.0007180199900176376,
+    "decision": "REJECT",
+    "agreement": true,
+    "events": [
+      {
+        "n": 4096,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n4096.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 262144,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n262144.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 1048576,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n1048576.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 16777216,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n16777216.json",
+        "counterfactual_gpu_seconds": 0
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "path": "affine",
+    "scenario": "weights",
+    "method": "WITHOUT_TYPED_SCOPE",
+    "live_vs_replay": "replay_only",
+    "new_H100_measurements": 0,
+    "new_GPU_seconds": 0,
+    "replayed_measurement_demand": 0,
+    "counterfactual_sampled_gpu_seconds": 0,
+    "planner_wall_seconds": 0.0007300120050786063,
+    "decision": "REJECT",
+    "agreement": true,
+    "events": [
+      {
+        "n": 4096,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n4096.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 262144,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n262144.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 1048576,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n1048576.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 16777216,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n16777216.json",
+        "counterfactual_gpu_seconds": 0
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "path": "affine",
+    "scenario": "weights",
+    "method": "WITHOUT_SELECTOR",
+    "live_vs_replay": "replay_only",
+    "new_H100_measurements": 0,
+    "new_GPU_seconds": 0,
+    "replayed_measurement_demand": 0,
+    "counterfactual_sampled_gpu_seconds": 0,
+    "planner_wall_seconds": 0.0007089519931469113,
+    "decision": "REJECT",
+    "agreement": true,
+    "events": [
+      {
+        "n": 4096,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n4096.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 262144,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n262144.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 1048576,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n1048576.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 16777216,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n16777216.json",
+        "counterfactual_gpu_seconds": 0
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "path": "affine",
+    "scenario": "added_shape",
+    "method": "FULL_A_REPLAY",
+    "live_vs_replay": "replay_only",
+    "new_H100_measurements": 0,
+    "new_GPU_seconds": 0,
+    "replayed_measurement_demand": 1,
+    "counterfactual_sampled_gpu_seconds": 0.18624707210063926,
+    "planner_wall_seconds": 0.0008256000000983477,
+    "decision": "PROMOTE",
+    "agreement": true,
+    "events": [
+      {
+        "n": 4096,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n4096.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 262144,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n262144.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 1048576,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n1048576.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 16777216,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n16777216.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 2097152,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/affine/added_shape/n2097152.json",
+        "counterfactual_gpu_seconds": 0.18624707210063926
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "path": "affine",
+    "scenario": "added_shape",
+    "method": "WITHOUT_TYPED_SCOPE",
+    "live_vs_replay": "replay_only",
+    "new_H100_measurements": 0,
+    "new_GPU_seconds": 0,
+    "replayed_measurement_demand": 1,
+    "counterfactual_sampled_gpu_seconds": 0.18624707210063926,
+    "planner_wall_seconds": 0.0008060690015554428,
+    "decision": "PROMOTE",
+    "agreement": true,
+    "events": [
+      {
+        "n": 4096,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n4096.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 262144,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n262144.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 1048576,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n1048576.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 16777216,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n16777216.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 2097152,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/affine/added_shape/n2097152.json",
+        "counterfactual_gpu_seconds": 0.18624707210063926
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "path": "affine",
+    "scenario": "added_shape",
+    "method": "WITHOUT_SELECTOR",
+    "live_vs_replay": "replay_only",
+    "new_H100_measurements": 0,
+    "new_GPU_seconds": 0,
+    "replayed_measurement_demand": 1,
+    "counterfactual_sampled_gpu_seconds": 0.18624707210063926,
+    "planner_wall_seconds": 0.0008239510061684996,
+    "decision": "PROMOTE",
+    "agreement": true,
+    "events": [
+      {
+        "n": 4096,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n4096.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 262144,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n262144.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 1048576,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n1048576.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 16777216,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n16777216.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 2097152,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/affine/added_shape/n2097152.json",
+        "counterfactual_gpu_seconds": 0.18624707210063926
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "path": "affine",
+    "scenario": "kernel",
+    "method": "FULL_A_REPLAY",
+    "live_vs_replay": "replay_only",
+    "new_H100_measurements": 0,
+    "new_GPU_seconds": 0,
+    "replayed_measurement_demand": 2,
+    "counterfactual_sampled_gpu_seconds": 1.361549404621124,
+    "planner_wall_seconds": 0.000752496998757124,
+    "decision": "PROMOTE",
+    "agreement": true,
+    "events": [
+      {
+        "n": 4096,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n4096.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 262144,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n262144.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 1048576,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/affine/kernel/n1048576.json",
+        "counterfactual_gpu_seconds": 0.18653305578231816
+      },
+      {
+        "n": 16777216,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/affine/kernel/n16777216.json",
+        "counterfactual_gpu_seconds": 1.175016348838806
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "path": "affine",
+    "scenario": "kernel",
+    "method": "WITHOUT_TYPED_SCOPE",
+    "live_vs_replay": "replay_only",
+    "new_H100_measurements": 0,
+    "new_GPU_seconds": 0,
+    "replayed_measurement_demand": 4,
+    "counterfactual_sampled_gpu_seconds": 1.7802982364892959,
+    "planner_wall_seconds": 0.0007578479999210685,
+    "decision": "PROMOTE",
+    "agreement": true,
+    "events": [
+      {
+        "n": 4096,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/affine/kernel/n4096.json",
+        "counterfactual_gpu_seconds": 0.21008220756053927
+      },
+      {
+        "n": 262144,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/affine/kernel/n262144.json",
+        "counterfactual_gpu_seconds": 0.20866662430763241
+      },
+      {
+        "n": 1048576,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/affine/kernel/n1048576.json",
+        "counterfactual_gpu_seconds": 0.18653305578231816
+      },
+      {
+        "n": 16777216,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/affine/kernel/n16777216.json",
+        "counterfactual_gpu_seconds": 1.175016348838806
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "path": "affine",
+    "scenario": "kernel",
+    "method": "WITHOUT_SELECTOR",
+    "live_vs_replay": "replay_only",
+    "new_H100_measurements": 0,
+    "new_GPU_seconds": 0,
+    "replayed_measurement_demand": 2,
+    "counterfactual_sampled_gpu_seconds": 1.361549404621124,
+    "planner_wall_seconds": 0.0006997229938860983,
+    "decision": "PROMOTE",
+    "agreement": true,
+    "events": [
+      {
+        "n": 4096,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n4096.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 262144,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n262144.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 1048576,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/affine/kernel/n1048576.json",
+        "counterfactual_gpu_seconds": 0.18653305578231816
+      },
+      {
+        "n": 16777216,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/affine/kernel/n16777216.json",
+        "counterfactual_gpu_seconds": 1.175016348838806
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "path": "affine",
+    "scenario": "evaluator",
+    "method": "FULL_A_REPLAY",
+    "live_vs_replay": "replay_only",
+    "new_H100_measurements": 0,
+    "new_GPU_seconds": 0,
+    "replayed_measurement_demand": 4,
+    "counterfactual_sampled_gpu_seconds": 0.889382015645504,
+    "planner_wall_seconds": 0.0007366770005319268,
+    "decision": "PROMOTE",
+    "agreement": true,
+    "events": [
+      {
+        "n": 4096,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/affine/evaluator/n4096.json",
+        "counterfactual_gpu_seconds": 0.10498745602369305
+      },
+      {
+        "n": 262144,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/affine/evaluator/n262144.json",
+        "counterfactual_gpu_seconds": 0.10482767975330352
+      },
+      {
+        "n": 1048576,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/affine/evaluator/n1048576.json",
+        "counterfactual_gpu_seconds": 0.09320134413242337
+      },
+      {
+        "n": 16777216,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/affine/evaluator/n16777216.json",
+        "counterfactual_gpu_seconds": 0.5863655357360841
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "path": "affine",
+    "scenario": "evaluator",
+    "method": "WITHOUT_TYPED_SCOPE",
+    "live_vs_replay": "replay_only",
+    "new_H100_measurements": 0,
+    "new_GPU_seconds": 0,
+    "replayed_measurement_demand": 4,
+    "counterfactual_sampled_gpu_seconds": 0.889382015645504,
+    "planner_wall_seconds": 0.0007528099959017709,
+    "decision": "PROMOTE",
+    "agreement": true,
+    "events": [
+      {
+        "n": 4096,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/affine/evaluator/n4096.json",
+        "counterfactual_gpu_seconds": 0.10498745602369305
+      },
+      {
+        "n": 262144,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/affine/evaluator/n262144.json",
+        "counterfactual_gpu_seconds": 0.10482767975330352
+      },
+      {
+        "n": 1048576,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/affine/evaluator/n1048576.json",
+        "counterfactual_gpu_seconds": 0.09320134413242337
+      },
+      {
+        "n": 16777216,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/affine/evaluator/n16777216.json",
+        "counterfactual_gpu_seconds": 0.5863655357360841
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "path": "affine",
+    "scenario": "evaluator",
+    "method": "WITHOUT_SELECTOR",
+    "live_vs_replay": "replay_only",
+    "new_H100_measurements": 0,
+    "new_GPU_seconds": 0,
+    "replayed_measurement_demand": 4,
+    "counterfactual_sampled_gpu_seconds": 0.889382015645504,
+    "planner_wall_seconds": 0.0007259999983943999,
+    "decision": "PROMOTE",
+    "agreement": true,
+    "events": [
+      {
+        "n": 4096,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/affine/evaluator/n4096.json",
+        "counterfactual_gpu_seconds": 0.10498745602369305
+      },
+      {
+        "n": 262144,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/affine/evaluator/n262144.json",
+        "counterfactual_gpu_seconds": 0.10482767975330352
+      },
+      {
+        "n": 1048576,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/affine/evaluator/n1048576.json",
+        "counterfactual_gpu_seconds": 0.09320134413242337
+      },
+      {
+        "n": 16777216,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/affine/evaluator/n16777216.json",
+        "counterfactual_gpu_seconds": 0.5863655357360841
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "path": "affine",
+    "scenario": "regressing_kernel",
+    "method": "FULL_A_REPLAY",
+    "live_vs_replay": "replay_only",
+    "new_H100_measurements": 0,
+    "new_GPU_seconds": 0,
+    "replayed_measurement_demand": 1,
+    "counterfactual_sampled_gpu_seconds": 0.3201288318634034,
+    "planner_wall_seconds": 0.0008003999973880127,
+    "decision": "REJECT",
+    "agreement": true,
+    "events": [
+      {
+        "n": 4096,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/affine/regressing_kernel/n4096.json",
+        "counterfactual_gpu_seconds": 0.3201288318634034
+      }
+    ],
+    "skipped": [
+      262144,
+      1048576,
+      16777216
+    ]
+  },
+  {
+    "path": "affine",
+    "scenario": "regressing_kernel",
+    "method": "WITHOUT_TYPED_SCOPE",
+    "live_vs_replay": "replay_only",
+    "new_H100_measurements": 0,
+    "new_GPU_seconds": 0,
+    "replayed_measurement_demand": 1,
+    "counterfactual_sampled_gpu_seconds": 0.3201288318634034,
+    "planner_wall_seconds": 0.0007532260060543194,
+    "decision": "REJECT",
+    "agreement": true,
+    "events": [
+      {
+        "n": 4096,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/affine/regressing_kernel/n4096.json",
+        "counterfactual_gpu_seconds": 0.3201288318634034
+      }
+    ],
+    "skipped": [
+      262144,
+      1048576,
+      16777216
+    ]
+  },
+  {
+    "path": "affine",
+    "scenario": "regressing_kernel",
+    "method": "WITHOUT_SELECTOR",
+    "live_vs_replay": "replay_only",
+    "new_H100_measurements": 0,
+    "new_GPU_seconds": 0,
+    "replayed_measurement_demand": 4,
+    "counterfactual_sampled_gpu_seconds": 3.5835794905424114,
+    "planner_wall_seconds": 0.0007365659985225648,
+    "decision": "REJECT",
+    "agreement": true,
+    "events": [
+      {
+        "n": 4096,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/affine/regressing_kernel/n4096.json",
+        "counterfactual_gpu_seconds": 0.3201288318634034
+      },
+      {
+        "n": 262144,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/affine/regressing_kernel/n262144.json",
+        "counterfactual_gpu_seconds": 0.3154267514944076
+      },
+      {
+        "n": 1048576,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/affine/regressing_kernel/n1048576.json",
+        "counterfactual_gpu_seconds": 0.3060165438652039
+      },
+      {
+        "n": 16777216,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/affine/regressing_kernel/n16777216.json",
+        "counterfactual_gpu_seconds": 2.642007363319397
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "path": "affine",
+    "scenario": "inactive_added_shape",
+    "method": "FULL_A_REPLAY",
+    "live_vs_replay": "replay_only",
+    "new_H100_measurements": 0,
+    "new_GPU_seconds": 0,
+    "replayed_measurement_demand": 0,
+    "counterfactual_sampled_gpu_seconds": 0,
+    "planner_wall_seconds": 0.0007910190033726394,
+    "decision": "PROMOTE",
+    "agreement": true,
+    "events": [
+      {
+        "n": 4096,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n4096.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 262144,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n262144.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 1048576,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n1048576.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 16777216,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n16777216.json",
+        "counterfactual_gpu_seconds": 0
+      }
+    ],
+    "skipped": [
+      2097152
+    ]
+  },
+  {
+    "path": "affine",
+    "scenario": "inactive_added_shape",
+    "method": "WITHOUT_TYPED_SCOPE",
+    "live_vs_replay": "replay_only",
+    "new_H100_measurements": 0,
+    "new_GPU_seconds": 0,
+    "replayed_measurement_demand": 0,
+    "counterfactual_sampled_gpu_seconds": 0,
+    "planner_wall_seconds": 0.000785552998422645,
+    "decision": "PROMOTE",
+    "agreement": true,
+    "events": [
+      {
+        "n": 4096,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n4096.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 262144,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n262144.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 1048576,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n1048576.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 16777216,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n16777216.json",
+        "counterfactual_gpu_seconds": 0
+      }
+    ],
+    "skipped": [
+      2097152
+    ]
+  },
+  {
+    "path": "affine",
+    "scenario": "inactive_added_shape",
+    "method": "WITHOUT_SELECTOR",
+    "live_vs_replay": "replay_only",
+    "new_H100_measurements": 0,
+    "new_GPU_seconds": 0,
+    "replayed_measurement_demand": 1,
+    "counterfactual_sampled_gpu_seconds": 0.1867684153318406,
+    "planner_wall_seconds": 0.0007796440040692687,
+    "decision": "PROMOTE",
+    "agreement": true,
+    "events": [
+      {
+        "n": 4096,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n4096.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 262144,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n262144.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 1048576,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n1048576.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 16777216,
+        "action": "historical_reuse",
+        "source": "evidence/B0/n16777216.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 2097152,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/affine/inactive_added_shape/n2097152.json",
+        "counterfactual_gpu_seconds": 0.1867684153318406
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "path": "reduction",
+    "scenario": "presentation",
+    "method": "FULL_A_REPLAY",
+    "live_vs_replay": "replay_only",
+    "new_H100_measurements": 0,
+    "new_GPU_seconds": 0,
+    "replayed_measurement_demand": 0,
+    "counterfactual_sampled_gpu_seconds": 0,
+    "planner_wall_seconds": 0.0004165599966654554,
+    "decision": "REJECT",
+    "agreement": true,
+    "events": [
+      {
+        "n": 128,
+        "action": "historical_reuse",
+        "source": "evidence/epoch002/reduction_seed/n128.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 1024,
+        "action": "historical_reuse",
+        "source": "evidence/epoch002/reduction_seed/n1024.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 4096,
+        "action": "historical_reuse",
+        "source": "evidence/epoch002/reduction_seed/n4096.json",
+        "counterfactual_gpu_seconds": 0
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "path": "reduction",
+    "scenario": "presentation",
+    "method": "WITHOUT_TYPED_SCOPE",
+    "live_vs_replay": "replay_only",
+    "new_H100_measurements": 0,
+    "new_GPU_seconds": 0,
+    "replayed_measurement_demand": 0,
+    "counterfactual_sampled_gpu_seconds": 0,
+    "planner_wall_seconds": 0.00043369000195525587,
+    "decision": "REJECT",
+    "agreement": true,
+    "events": [
+      {
+        "n": 128,
+        "action": "historical_reuse",
+        "source": "evidence/epoch002/reduction_seed/n128.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 1024,
+        "action": "historical_reuse",
+        "source": "evidence/epoch002/reduction_seed/n1024.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 4096,
+        "action": "historical_reuse",
+        "source": "evidence/epoch002/reduction_seed/n4096.json",
+        "counterfactual_gpu_seconds": 0
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "path": "reduction",
+    "scenario": "presentation",
+    "method": "WITHOUT_SELECTOR",
+    "live_vs_replay": "replay_only",
+    "new_H100_measurements": 0,
+    "new_GPU_seconds": 0,
+    "replayed_measurement_demand": 0,
+    "counterfactual_sampled_gpu_seconds": 0,
+    "planner_wall_seconds": 0.00039749100687913597,
+    "decision": "REJECT",
+    "agreement": true,
+    "events": [
+      {
+        "n": 128,
+        "action": "historical_reuse",
+        "source": "evidence/epoch002/reduction_seed/n128.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 1024,
+        "action": "historical_reuse",
+        "source": "evidence/epoch002/reduction_seed/n1024.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 4096,
+        "action": "historical_reuse",
+        "source": "evidence/epoch002/reduction_seed/n4096.json",
+        "counterfactual_gpu_seconds": 0
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "path": "reduction",
+    "scenario": "weights",
+    "method": "FULL_A_REPLAY",
+    "live_vs_replay": "replay_only",
+    "new_H100_measurements": 0,
+    "new_GPU_seconds": 0,
+    "replayed_measurement_demand": 0,
+    "counterfactual_sampled_gpu_seconds": 0,
+    "planner_wall_seconds": 0.00042525499884504825,
+    "decision": "REJECT",
+    "agreement": true,
+    "events": [
+      {
+        "n": 128,
+        "action": "historical_reuse",
+        "source": "evidence/epoch002/reduction_seed/n128.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 1024,
+        "action": "historical_reuse",
+        "source": "evidence/epoch002/reduction_seed/n1024.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 4096,
+        "action": "historical_reuse",
+        "source": "evidence/epoch002/reduction_seed/n4096.json",
+        "counterfactual_gpu_seconds": 0
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "path": "reduction",
+    "scenario": "weights",
+    "method": "WITHOUT_TYPED_SCOPE",
+    "live_vs_replay": "replay_only",
+    "new_H100_measurements": 0,
+    "new_GPU_seconds": 0,
+    "replayed_measurement_demand": 0,
+    "counterfactual_sampled_gpu_seconds": 0,
+    "planner_wall_seconds": 0.00041143299313262105,
+    "decision": "REJECT",
+    "agreement": true,
+    "events": [
+      {
+        "n": 128,
+        "action": "historical_reuse",
+        "source": "evidence/epoch002/reduction_seed/n128.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 1024,
+        "action": "historical_reuse",
+        "source": "evidence/epoch002/reduction_seed/n1024.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 4096,
+        "action": "historical_reuse",
+        "source": "evidence/epoch002/reduction_seed/n4096.json",
+        "counterfactual_gpu_seconds": 0
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "path": "reduction",
+    "scenario": "weights",
+    "method": "WITHOUT_SELECTOR",
+    "live_vs_replay": "replay_only",
+    "new_H100_measurements": 0,
+    "new_GPU_seconds": 0,
+    "replayed_measurement_demand": 0,
+    "counterfactual_sampled_gpu_seconds": 0,
+    "planner_wall_seconds": 0.00039720500353723764,
+    "decision": "REJECT",
+    "agreement": true,
+    "events": [
+      {
+        "n": 128,
+        "action": "historical_reuse",
+        "source": "evidence/epoch002/reduction_seed/n128.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 1024,
+        "action": "historical_reuse",
+        "source": "evidence/epoch002/reduction_seed/n1024.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 4096,
+        "action": "historical_reuse",
+        "source": "evidence/epoch002/reduction_seed/n4096.json",
+        "counterfactual_gpu_seconds": 0
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "path": "reduction",
+    "scenario": "added_shape",
+    "method": "FULL_A_REPLAY",
+    "live_vs_replay": "replay_only",
+    "new_H100_measurements": 0,
+    "new_GPU_seconds": 0,
+    "replayed_measurement_demand": 0,
+    "counterfactual_sampled_gpu_seconds": 0,
+    "planner_wall_seconds": 0.00046017799468245357,
+    "decision": "REJECT",
+    "agreement": true,
+    "events": [
+      {
+        "n": 128,
+        "action": "historical_reuse",
+        "source": "evidence/epoch002/reduction_seed/n128.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 1024,
+        "action": "historical_reuse",
+        "source": "evidence/epoch002/reduction_seed/n1024.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 4096,
+        "action": "historical_reuse",
+        "source": "evidence/epoch002/reduction_seed/n4096.json",
+        "counterfactual_gpu_seconds": 0
+      }
+    ],
+    "skipped": [
+      2048
+    ]
+  },
+  {
+    "path": "reduction",
+    "scenario": "added_shape",
+    "method": "WITHOUT_TYPED_SCOPE",
+    "live_vs_replay": "replay_only",
+    "new_H100_measurements": 0,
+    "new_GPU_seconds": 0,
+    "replayed_measurement_demand": 0,
+    "counterfactual_sampled_gpu_seconds": 0,
+    "planner_wall_seconds": 0.00042958700214512646,
+    "decision": "REJECT",
+    "agreement": true,
+    "events": [
+      {
+        "n": 128,
+        "action": "historical_reuse",
+        "source": "evidence/epoch002/reduction_seed/n128.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 1024,
+        "action": "historical_reuse",
+        "source": "evidence/epoch002/reduction_seed/n1024.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 4096,
+        "action": "historical_reuse",
+        "source": "evidence/epoch002/reduction_seed/n4096.json",
+        "counterfactual_gpu_seconds": 0
+      }
+    ],
+    "skipped": [
+      2048
+    ]
+  },
+  {
+    "path": "reduction",
+    "scenario": "added_shape",
+    "method": "WITHOUT_SELECTOR",
+    "live_vs_replay": "replay_only",
+    "new_H100_measurements": 0,
+    "new_GPU_seconds": 0,
+    "replayed_measurement_demand": 1,
+    "counterfactual_sampled_gpu_seconds": 0.11775456017255785,
+    "planner_wall_seconds": 0.00045649599633179605,
+    "decision": "REJECT",
+    "agreement": true,
+    "events": [
+      {
+        "n": 128,
+        "action": "historical_reuse",
+        "source": "evidence/epoch002/reduction_seed/n128.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 1024,
+        "action": "historical_reuse",
+        "source": "evidence/epoch002/reduction_seed/n1024.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 4096,
+        "action": "historical_reuse",
+        "source": "evidence/epoch002/reduction_seed/n4096.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 2048,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/reduction/added_shape/n2048.json",
+        "counterfactual_gpu_seconds": 0.11775456017255785
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "path": "reduction",
+    "scenario": "kernel",
+    "method": "FULL_A_REPLAY",
+    "live_vs_replay": "replay_only",
+    "new_H100_measurements": 0,
+    "new_GPU_seconds": 0,
+    "replayed_measurement_demand": 1,
+    "counterfactual_sampled_gpu_seconds": 0.20894335907697675,
+    "planner_wall_seconds": 0.0003869969950756058,
+    "decision": "REJECT",
+    "agreement": true,
+    "events": [
+      {
+        "n": 4096,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/reduction/kernel/n4096.json",
+        "counterfactual_gpu_seconds": 0.20894335907697675
+      }
+    ],
+    "skipped": [
+      128,
+      1024
+    ]
+  },
+  {
+    "path": "reduction",
+    "scenario": "kernel",
+    "method": "WITHOUT_TYPED_SCOPE",
+    "live_vs_replay": "replay_only",
+    "new_H100_measurements": 0,
+    "new_GPU_seconds": 0,
+    "replayed_measurement_demand": 1,
+    "counterfactual_sampled_gpu_seconds": 0.20894335907697675,
+    "planner_wall_seconds": 0.0004006850067526102,
+    "decision": "REJECT",
+    "agreement": true,
+    "events": [
+      {
+        "n": 4096,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/reduction/kernel/n4096.json",
+        "counterfactual_gpu_seconds": 0.20894335907697675
+      }
+    ],
+    "skipped": [
+      128,
+      1024
+    ]
+  },
+  {
+    "path": "reduction",
+    "scenario": "kernel",
+    "method": "WITHOUT_SELECTOR",
+    "live_vs_replay": "replay_only",
+    "new_H100_measurements": 0,
+    "new_GPU_seconds": 0,
+    "replayed_measurement_demand": 3,
+    "counterfactual_sampled_gpu_seconds": 0.5906418222188949,
+    "planner_wall_seconds": 0.0003926409990526736,
+    "decision": "REJECT",
+    "agreement": true,
+    "events": [
+      {
+        "n": 128,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/reduction/kernel/n128.json",
+        "counterfactual_gpu_seconds": 0.18908767926692963
+      },
+      {
+        "n": 1024,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/reduction/kernel/n1024.json",
+        "counterfactual_gpu_seconds": 0.19261078387498856
+      },
+      {
+        "n": 4096,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/reduction/kernel/n4096.json",
+        "counterfactual_gpu_seconds": 0.20894335907697675
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "path": "reduction",
+    "scenario": "evaluator",
+    "method": "FULL_A_REPLAY",
+    "live_vs_replay": "replay_only",
+    "new_H100_measurements": 0,
+    "new_GPU_seconds": 0,
+    "replayed_measurement_demand": 1,
+    "counterfactual_sampled_gpu_seconds": 0.06800694409012797,
+    "planner_wall_seconds": 0.0004274520033504814,
+    "decision": "REJECT",
+    "agreement": true,
+    "events": [
+      {
+        "n": 4096,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/reduction/evaluator/n4096.json",
+        "counterfactual_gpu_seconds": 0.06800694409012797
+      }
+    ],
+    "skipped": [
+      128,
+      1024
+    ]
+  },
+  {
+    "path": "reduction",
+    "scenario": "evaluator",
+    "method": "WITHOUT_TYPED_SCOPE",
+    "live_vs_replay": "replay_only",
+    "new_H100_measurements": 0,
+    "new_GPU_seconds": 0,
+    "replayed_measurement_demand": 1,
+    "counterfactual_sampled_gpu_seconds": 0.06800694409012797,
+    "planner_wall_seconds": 0.00039978200220502913,
+    "decision": "REJECT",
+    "agreement": true,
+    "events": [
+      {
+        "n": 4096,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/reduction/evaluator/n4096.json",
+        "counterfactual_gpu_seconds": 0.06800694409012797
+      }
+    ],
+    "skipped": [
+      128,
+      1024
+    ]
+  },
+  {
+    "path": "reduction",
+    "scenario": "evaluator",
+    "method": "WITHOUT_SELECTOR",
+    "live_vs_replay": "replay_only",
+    "new_H100_measurements": 0,
+    "new_GPU_seconds": 0,
+    "replayed_measurement_demand": 3,
+    "counterfactual_sampled_gpu_seconds": 0.18755654406547545,
+    "planner_wall_seconds": 0.00038955200579948723,
+    "decision": "REJECT",
+    "agreement": true,
+    "events": [
+      {
+        "n": 128,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/reduction/evaluator/n128.json",
+        "counterfactual_gpu_seconds": 0.05987529614567755
+      },
+      {
+        "n": 1024,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/reduction/evaluator/n1024.json",
+        "counterfactual_gpu_seconds": 0.059674303829669935
+      },
+      {
+        "n": 4096,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/reduction/evaluator/n4096.json",
+        "counterfactual_gpu_seconds": 0.06800694409012797
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "path": "reduction",
+    "scenario": "regressing_kernel",
+    "method": "FULL_A_REPLAY",
+    "live_vs_replay": "replay_only",
+    "new_H100_measurements": 0,
+    "new_GPU_seconds": 0,
+    "replayed_measurement_demand": 1,
+    "counterfactual_sampled_gpu_seconds": 0.1594833602309227,
+    "planner_wall_seconds": 0.00042346800910308957,
+    "decision": "REJECT",
+    "agreement": true,
+    "events": [
+      {
+        "n": 4096,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/reduction/regressing_kernel/n4096.json",
+        "counterfactual_gpu_seconds": 0.1594833602309227
+      }
+    ],
+    "skipped": [
+      128,
+      1024
+    ]
+  },
+  {
+    "path": "reduction",
+    "scenario": "regressing_kernel",
+    "method": "WITHOUT_TYPED_SCOPE",
+    "live_vs_replay": "replay_only",
+    "new_H100_measurements": 0,
+    "new_GPU_seconds": 0,
+    "replayed_measurement_demand": 1,
+    "counterfactual_sampled_gpu_seconds": 0.1594833602309227,
+    "planner_wall_seconds": 0.0004070249997312203,
+    "decision": "REJECT",
+    "agreement": true,
+    "events": [
+      {
+        "n": 4096,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/reduction/regressing_kernel/n4096.json",
+        "counterfactual_gpu_seconds": 0.1594833602309227
+      }
+    ],
+    "skipped": [
+      128,
+      1024
+    ]
+  },
+  {
+    "path": "reduction",
+    "scenario": "regressing_kernel",
+    "method": "WITHOUT_SELECTOR",
+    "live_vs_replay": "replay_only",
+    "new_H100_measurements": 0,
+    "new_GPU_seconds": 0,
+    "replayed_measurement_demand": 3,
+    "counterfactual_sampled_gpu_seconds": 0.37695392030477515,
+    "planner_wall_seconds": 0.0004197369999019429,
+    "decision": "REJECT",
+    "agreement": true,
+    "events": [
+      {
+        "n": 128,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/reduction/regressing_kernel/n128.json",
+        "counterfactual_gpu_seconds": 0.11004316794872283
+      },
+      {
+        "n": 1024,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/reduction/regressing_kernel/n1024.json",
+        "counterfactual_gpu_seconds": 0.10742739212512965
+      },
+      {
+        "n": 4096,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/reduction/regressing_kernel/n4096.json",
+        "counterfactual_gpu_seconds": 0.1594833602309227
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "path": "reduction",
+    "scenario": "inactive_added_shape",
+    "method": "FULL_A_REPLAY",
+    "live_vs_replay": "replay_only",
+    "new_H100_measurements": 0,
+    "new_GPU_seconds": 0,
+    "replayed_measurement_demand": 0,
+    "counterfactual_sampled_gpu_seconds": 0,
+    "planner_wall_seconds": 0.0004681919963331893,
+    "decision": "REJECT",
+    "agreement": true,
+    "events": [
+      {
+        "n": 128,
+        "action": "historical_reuse",
+        "source": "evidence/epoch002/reduction_seed/n128.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 1024,
+        "action": "historical_reuse",
+        "source": "evidence/epoch002/reduction_seed/n1024.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 4096,
+        "action": "historical_reuse",
+        "source": "evidence/epoch002/reduction_seed/n4096.json",
+        "counterfactual_gpu_seconds": 0
+      }
+    ],
+    "skipped": [
+      2048
+    ]
+  },
+  {
+    "path": "reduction",
+    "scenario": "inactive_added_shape",
+    "method": "WITHOUT_TYPED_SCOPE",
+    "live_vs_replay": "replay_only",
+    "new_H100_measurements": 0,
+    "new_GPU_seconds": 0,
+    "replayed_measurement_demand": 0,
+    "counterfactual_sampled_gpu_seconds": 0,
+    "planner_wall_seconds": 0.0004925849934807047,
+    "decision": "REJECT",
+    "agreement": true,
+    "events": [
+      {
+        "n": 128,
+        "action": "historical_reuse",
+        "source": "evidence/epoch002/reduction_seed/n128.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 1024,
+        "action": "historical_reuse",
+        "source": "evidence/epoch002/reduction_seed/n1024.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 4096,
+        "action": "historical_reuse",
+        "source": "evidence/epoch002/reduction_seed/n4096.json",
+        "counterfactual_gpu_seconds": 0
+      }
+    ],
+    "skipped": [
+      2048
+    ]
+  },
+  {
+    "path": "reduction",
+    "scenario": "inactive_added_shape",
+    "method": "WITHOUT_SELECTOR",
+    "live_vs_replay": "replay_only",
+    "new_H100_measurements": 0,
+    "new_GPU_seconds": 0,
+    "replayed_measurement_demand": 1,
+    "counterfactual_sampled_gpu_seconds": 0.11642198407649995,
+    "planner_wall_seconds": 0.00046525899961125106,
+    "decision": "REJECT",
+    "agreement": true,
+    "events": [
+      {
+        "n": 128,
+        "action": "historical_reuse",
+        "source": "evidence/epoch002/reduction_seed/n128.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 1024,
+        "action": "historical_reuse",
+        "source": "evidence/epoch002/reduction_seed/n1024.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 4096,
+        "action": "historical_reuse",
+        "source": "evidence/epoch002/reduction_seed/n4096.json",
+        "counterfactual_gpu_seconds": 0
+      },
+      {
+        "n": 2048,
+        "action": "replay_B0_measurement",
+        "source": "evidence/baselines/B0/reduction/inactive_added_shape/n2048.json",
+        "counterfactual_gpu_seconds": 0.11642198407649995
+      }
+    ],
+    "skipped": []
+  }
+]

@@ -1,0 +1,122 @@
+{
+  "4096": {
+    "scope": {
+      "path": "affine",
+      "shape": 4096,
+      "dtype": "float32",
+      "layout": "contiguous",
+      "code": "1ccacbb970d55f7ca9fb35dbfb273da45a08cf3bbd9dd49b54cb96a4fe960830",
+      "environment": "1175cb7ff9bff7393d3b64a5e6f0df6a7997f6b208d4e1aa308ca296265ed565",
+      "evaluator": "c03157fc37d8833592fb5ff16142a8163fcb948e4c2d863e293a2952a1e7eaaa",
+      "oracle": "affine_cpu_float64_exact_v1"
+    },
+    "candidate_bundle": "e471c16618e7765b396300fbecdf26ebe11602a7693971cd3266bfa7eb33547c",
+    "objective": {
+      "weights": "per scenario; zero-weight shapes outside decision scope",
+      "material_geomean_speedup": 1.15,
+      "min_active_shape_speedup": 0.95,
+      "decision": "PROMOTE iff active shapes all pass regression bound and weighted geomean >=1.15; else REJECT; unknown never promotes"
+    },
+    "raw_artifact": "evidence/B0/n4096.json",
+    "raw_sha256": "65bd0fdb9c6391a22955ec02ce564cf83861019b6d2dd25f5d0a483f9e74d3ba",
+    "conclusion_scope": "this exact shape/code/environment/evaluator only",
+    "provenance": {
+      "origin_epoch": "EPOCH001",
+      "source_hash": "65bd0fdb9c6391a22955ec02ce564cf83861019b6d2dd25f5d0a483f9e74d3ba",
+      "sampler_compatibility": "contract.json; identical paired sampler parameters"
+    },
+    "live_vs_replay": "historical_live_evidence",
+    "speedup": 0.9981538818693528,
+    "sampled_gpu_seconds": 0.20783001649379731
+  },
+  "262144": {
+    "scope": {
+      "path": "affine",
+      "shape": 262144,
+      "dtype": "float32",
+      "layout": "contiguous",
+      "code": "1ccacbb970d55f7ca9fb35dbfb273da45a08cf3bbd9dd49b54cb96a4fe960830",
+      "environment": "1175cb7ff9bff7393d3b64a5e6f0df6a7997f6b208d4e1aa308ca296265ed565",
+      "evaluator": "c03157fc37d8833592fb5ff16142a8163fcb948e4c2d863e293a2952a1e7eaaa",
+      "oracle": "affine_cpu_float64_exact_v1"
+    },
+    "candidate_bundle": "e471c16618e7765b396300fbecdf26ebe11602a7693971cd3266bfa7eb33547c",
+    "objective": {
+      "weights": "per scenario; zero-weight shapes outside decision scope",
+      "material_geomean_speedup": 1.15,
+      "min_active_shape_speedup": 0.95,
+      "decision": "PROMOTE iff active shapes all pass regression bound and weighted geomean >=1.15; else REJECT; unknown never promotes"
+    },
+    "raw_artifact": "evidence/B0/n262144.json",
+    "raw_sha256": "9885e6949dd3106d34f644b8d07a8c46f7a7450e04cbfce8b3440ab64477e65a",
+    "conclusion_scope": "this exact shape/code/environment/evaluator only",
+    "provenance": {
+      "origin_epoch": "EPOCH001",
+      "source_hash": "9885e6949dd3106d34f644b8d07a8c46f7a7450e04cbfce8b3440ab64477e65a",
+      "sampler_compatibility": "contract.json; identical paired sampler parameters"
+    },
+    "live_vs_replay": "historical_live_evidence",
+    "speedup": 0.9985095464652368,
+    "sampled_gpu_seconds": 0.20752812850475316
+  },
+  "1048576": {
+    "scope": {
+      "path": "affine",
+      "shape": 1048576,
+      "dtype": "float32",
+      "layout": "contiguous",
+      "code": "1248a935f5f6a204c909661bf86155f0e1459e824889dfb74d5f9c523bc4011d",
+      "environment": "1175cb7ff9bff7393d3b64a5e6f0df6a7997f6b208d4e1aa308ca296265ed565",
+      "evaluator": "c03157fc37d8833592fb5ff16142a8163fcb948e4c2d863e293a2952a1e7eaaa",
+      "oracle": "affine_cpu_float64_exact_v1"
+    },
+    "candidate_bundle": "e471c16618e7765b396300fbecdf26ebe11602a7693971cd3266bfa7eb33547c",
+    "objective": {
+      "weights": "per scenario; zero-weight shapes outside decision scope",
+      "material_geomean_speedup": 1.15,
+      "min_active_shape_speedup": 0.95,
+      "decision": "PROMOTE iff active shapes all pass regression bound and weighted geomean >=1.15; else REJECT; unknown never promotes"
+    },
+    "raw_artifact": "evidence/B0/n1048576.json",
+    "raw_sha256": "792115f3a9fef0fbd4cc23d7aa63f369035f5e92eeddc75c941e74ca9c8d0d86",
+    "conclusion_scope": "this exact shape/code/environment/evaluator only",
+    "provenance": {
+      "origin_epoch": "EPOCH001",
+      "source_hash": "792115f3a9fef0fbd4cc23d7aa63f369035f5e92eeddc75c941e74ca9c8d0d86",
+      "sampler_compatibility": "contract.json; identical paired sampler parameters"
+    },
+    "live_vs_replay": "historical_live_evidence",
+    "speedup": 1.2978450511498312,
+    "sampled_gpu_seconds": 0.18908793532848356
+  },
+  "16777216": {
+    "scope": {
+      "path": "affine",
+      "shape": 16777216,
+      "dtype": "float32",
+      "layout": "contiguous",
+      "code": "1248a935f5f6a204c909661bf86155f0e1459e824889dfb74d5f9c523bc4011d",
+      "environment": "1175cb7ff9bff7393d3b64a5e6f0df6a7997f6b208d4e1aa308ca296265ed565",
+      "evaluator": "c03157fc37d8833592fb5ff16142a8163fcb948e4c2d863e293a2952a1e7eaaa",
+      "oracle": "affine_cpu_float64_exact_v1"
+    },
+    "candidate_bundle": "e471c16618e7765b396300fbecdf26ebe11602a7693971cd3266bfa7eb33547c",
+    "objective": {
+      "weights": "per scenario; zero-weight shapes outside decision scope",
+      "material_geomean_speedup": 1.15,
+      "min_active_shape_speedup": 0.95,
+      "decision": "PROMOTE iff active shapes all pass regression bound and weighted geomean >=1.15; else REJECT; unknown never promotes"
+    },
+    "raw_artifact": "evidence/B0/n16777216.json",
+    "raw_sha256": "fa9b69904a83d2d9d49aa31fdc7630806dbb89fe2537642acee9f34a51531142",
+    "conclusion_scope": "this exact shape/code/environment/evaluator only",
+    "provenance": {
+      "origin_epoch": "EPOCH001",
+      "source_hash": "fa9b69904a83d2d9d49aa31fdc7630806dbb89fe2537642acee9f34a51531142",
+      "sampler_compatibility": "contract.json; identical paired sampler parameters"
+    },
+    "live_vs_replay": "historical_live_evidence",
+    "speedup": 2.996520286300588,
+    "sampled_gpu_seconds": 1.1726836504936218
+  }
+}

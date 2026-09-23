@@ -22,7 +22,7 @@ H100_frontier:
     COLLAPSE: 2
     NEAR_TIE: 1
 
-temporal_spot_checks:
+temporal_spot_check:
   separation_seconds: 1800
   round2_cells: 4
 
