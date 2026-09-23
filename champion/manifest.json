@@ -1,0 +1,16 @@
+{
+  "champion_id": "C_035 / EPOCH001_H100_AFFINE_RELU_FUSION",
+  "state": "PUBLIC_PORTABILITY_DERIVATIVE",
+  "measured_private_manifest": "champion/manifest_measured_C035.json",
+  "entrypoints": {
+    "loop_review": "RUN_CHIA_LOOP.md",
+    "planner_cpu_guard": "loop/epoch002/test_planner.py",
+    "evidence_replay": "replay_public_evidence.py",
+    "champion_verify": "champion/verify.sh"
+  },
+  "claim_boundary": {
+    "NO_PROMOTION": true,
+    "C035_preserved": true,
+    "FULL_A_general_superiority": false
+  }
+}
