@@ -1,8 +1,39 @@
 {
-  "Evidence_required_fields": ["scope","candidate_bundle","objective","raw_artifact","raw_sha256","conclusion_scope","provenance","live_vs_replay","speedup","sampled_gpu_seconds"],
-  "Scope_required_fields": ["path","shape","dtype","layout","code","environment","evaluator","oracle"],
-  "provenance_required": ["origin_epoch","source_hash","sampler_compatibility"],
-  "raw_required": ["samples","telemetry","oracle","baseline_oracle","status","batch_calls"],
+  "Evidence_required_fields": [
+    "scope",
+    "candidate_bundle",
+    "objective",
+    "raw_artifact",
+    "raw_sha256",
+    "conclusion_scope",
+    "provenance",
+    "live_vs_replay",
+    "speedup",
+    "sampled_gpu_seconds"
+  ],
+  "Scope_required_fields": [
+    "path",
+    "shape",
+    "dtype",
+    "layout",
+    "code",
+    "environment",
+    "evaluator",
+    "oracle"
+  ],
+  "provenance_required": [
+    "origin_epoch",
+    "source_hash",
+    "sampler_compatibility"
+  ],
+  "raw_required": [
+    "samples",
+    "telemetry",
+    "oracle",
+    "baseline_oracle",
+    "status",
+    "batch_calls"
+  ],
   "no_unknown_equivalence": true,
   "sampler_seed_compatibility": "61 alternating paired CUDA events, 100 calls, 30 warmups, same champion affine/baseline source and correctness functions; worker changes add dispatch outside timed calls. Evaluator batch=50 is a different scope."
 }
