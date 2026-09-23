@@ -1,0 +1,85 @@
+{
+  "state": "PASS_PUBLIC_FULL_LOOP_ACCEPTANCE",
+  "claim_ceiling": "artifact_portability_and_orchestration_only",
+  "scientific_promotion": false,
+  "frozen_G2_G3_mutated": false,
+  "valid_reuse": {
+    "pass": true,
+    "decision": "PROMOTE",
+    "events": [
+      {
+        "n": 4096,
+        "cache_key_equal": true,
+        "source_sha256": "65bd0fdb9c6391a22955ec02ce564cf83861019b6d2dd25f5d0a483f9e74d3ba",
+        "speedup": 0.9981538818693528
+      },
+      {
+        "n": 262144,
+        "cache_key_equal": true,
+        "source_sha256": "9885e6949dd3106d34f644b8d07a8c46f7a7450e04cbfce8b3440ab64477e65a",
+        "speedup": 0.9985095464652368
+      },
+      {
+        "n": 1048576,
+        "cache_key_equal": true,
+        "source_sha256": "792115f3a9fef0fbd4cc23d7aa63f369035f5e92eeddc75c941e74ca9c8d0d86",
+        "speedup": 1.2978450511498312
+      },
+      {
+        "n": 16777216,
+        "cache_key_equal": true,
+        "source_sha256": "fa9b69904a83d2d9d49aa31fdc7630806dbb89fe2537642acee9f34a51531142",
+        "speedup": 2.996520286300588
+      }
+    ],
+    "new_H100_measurements": 0
+  },
+  "invalidated_evidence": {
+    "pass": true,
+    "historical_environment": "1175cb7ff9bff7393d3b64a5e6f0df6a7997f6b208d4e1aa308ca296265ed565",
+    "current_environment": "e3de0c5b0f54f58c7334581dfb612a758d5406d4c9d58310461624ad138225ad",
+    "historical_cache_key": "a819479ba7ca66c71580fa16f031984a74b38873908614fc090126744697b82e",
+    "current_cache_key": "7e1bfd11d9d25a84a6c84570bfea34a8c0d82e37a3df7360711f3f09ef97aabf",
+    "forced_live_measurement": 1048576,
+    "live_speedup": 1.303363340368235,
+    "decision": "PROMOTE",
+    "live_artifact": {
+      "artifact": "results/public_full_loop_acceptance/live_n1048576.json",
+      "sha256": "8f43212fb05ba3d630d63728fa26246cf66c7f52a79cf4b594c6f5af658b852a",
+      "log": "results/public_full_loop_acceptance/live_n1048576.json.acceptance.log"
+    }
+  },
+  "no_compatible_prior_collapse": {
+    "pass": true,
+    "B3_order": [
+      1048576,
+      262144
+    ],
+    "FULL_A_order": [
+      1048576,
+      262144
+    ],
+    "executed_order": [
+      1048576,
+      262144
+    ],
+    "observed_speedups": {
+      "1048576": 1.303363340368235,
+      "262144": 1.0078692128656435
+    },
+    "B3_decision": "REJECT",
+    "FULL_A_decision": "REJECT",
+    "live_artifacts": {
+      "1048576": {
+        "artifact": "results/public_full_loop_acceptance/live_n1048576.json",
+        "sha256": "8f43212fb05ba3d630d63728fa26246cf66c7f52a79cf4b594c6f5af658b852a",
+        "log": "results/public_full_loop_acceptance/live_n1048576.json.acceptance.log"
+      },
+      "262144": {
+        "artifact": "results/public_full_loop_acceptance/live_n262144.json",
+        "sha256": "ccb42cc4e7a09445308dcdbcabed08c3a2f8593bb52036095d648436dbf2620a",
+        "log": "results/public_full_loop_acceptance/live_n262144.json.acceptance.log"
+      }
+    }
+  }
+}

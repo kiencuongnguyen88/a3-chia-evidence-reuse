@@ -1,0 +1,98 @@
+{
+  "state": {
+    "checkpoint": "C_128",
+    "acceptance": "NO_PROMOTION",
+    "champion": "C_035",
+    "FULL_A_promoted": false,
+    "remaining_cells": 5,
+    "remaining_cells_state": "RESERVE_ONLY"
+  },
+  "development": {
+    "scenario_count": 14,
+    "B0": {
+      "live_cells": 53,
+      "sampled_gpu_seconds": 16.57703826159239,
+      "wall_seconds": 158.32270142401103,
+      "decision_errors": 0,
+      "missed_useful_candidates": 0
+    },
+    "B3": {
+      "live_cells": 14,
+      "sampled_gpu_seconds": 6.111866847902535,
+      "wall_seconds": 44.23994708198006,
+      "decision_errors": 0,
+      "missed_useful_candidates": 0
+    },
+    "FULL_A": {
+      "live_cells": 11,
+      "sampled_gpu_seconds": 3.1868193015754227,
+      "wall_seconds": 32.52639529797307,
+      "decision_errors": 0,
+      "missed_useful_candidates": 0
+    },
+    "FULL_A_vs_B3": {
+      "live_cell_reduction_fraction": 0.21428571428571427,
+      "sampled_gpu_time_reduction_fraction": 0.4785849592470961
+    }
+  },
+  "heldout": {
+    "G2": {
+      "B0": {
+        "decision": "PROMOTE",
+        "cells": 4
+      },
+      "B3": {
+        "decision": "PROMOTE",
+        "cells": 4
+      },
+      "FULL_A": {
+        "decision": "PROMOTE",
+        "cells": 4
+      }
+    },
+    "G3": {
+      "B0": {
+        "decision": "REJECT",
+        "cells": 3
+      },
+      "B3": {
+        "decision": "REJECT",
+        "cells": 1
+      },
+      "FULL_A": {
+        "decision": "REJECT",
+        "cells": 1
+      }
+    },
+    "aggregate": {
+      "B0": {
+        "cells": 7,
+        "sampled_gpu_seconds": 2.010980127394,
+        "wall_seconds": 21.4915982
+      },
+      "B3": {
+        "cells": 5,
+        "sampled_gpu_seconds": 1.777979745984,
+        "wall_seconds": 15.218925129
+      },
+      "FULL_A": {
+        "cells": 5,
+        "sampled_gpu_seconds": 1.782857765436,
+        "wall_seconds": 15.302369854
+      }
+    },
+    "frozen_criteria": {
+      "FULL_A_cells_le_0.90_B3": false,
+      "FULL_A_gpu_seconds_le_0.90_B3": false,
+      "FULL_A_wall_le_1.05_B3": true
+    },
+    "acceptance": "NO_PROMOTION"
+  },
+  "provenance": {
+    "epoch002_closure_sha256": "6e3038e07d695787fddb745b0f63ace521ea960502f7b6b8e84524eb4092c95a",
+    "epoch003_terminal_sha256": "11e93678fbd5275a14512508019632ff5fbd74f9ecabaf2880a02f803942ca47",
+    "epoch003_closure_sha256": "236a73d54a6f3159125c43b198885fb22bcc8cc60171b359974694ccd63eb992",
+    "preopen_freeze_sha256": "0b623ebf7717dcde39e51aec6f7eb81ccb7aa88c8b427075c02622de893801d7",
+    "CHIA_commit": "16c35e92aaaf9511c6453bf94cd5cf589698f4e3"
+  }
+}

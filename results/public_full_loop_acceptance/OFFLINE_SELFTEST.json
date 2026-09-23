@@ -1,0 +1,34 @@
+{
+  "state": "OFFLINE_SELFTEST_PASS",
+  "valid_reuse": {
+    "pass": true,
+    "decision": "PROMOTE",
+    "events": [
+      {
+        "n": 4096,
+        "cache_key_equal": true,
+        "source_sha256": "65bd0fdb9c6391a22955ec02ce564cf83861019b6d2dd25f5d0a483f9e74d3ba",
+        "speedup": 0.9981538818693528
+      },
+      {
+        "n": 262144,
+        "cache_key_equal": true,
+        "source_sha256": "9885e6949dd3106d34f644b8d07a8c46f7a7450e04cbfce8b3440ab64477e65a",
+        "speedup": 0.9985095464652368
+      },
+      {
+        "n": 1048576,
+        "cache_key_equal": true,
+        "source_sha256": "792115f3a9fef0fbd4cc23d7aa63f369035f5e92eeddc75c941e74ca9c8d0d86",
+        "speedup": 1.2978450511498312
+      },
+      {
+        "n": 16777216,
+        "cache_key_equal": true,
+        "source_sha256": "fa9b69904a83d2d9d49aa31fdc7630806dbb89fe2537642acee9f34a51531142",
+        "speedup": 2.996520286300588
+      }
+    ]
+  },
+  "live_cases": "NOT_RUN"
+}

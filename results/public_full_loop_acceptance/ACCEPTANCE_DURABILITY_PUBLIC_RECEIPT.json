@@ -1,0 +1,11 @@
+{
+  "acceptance_verdict": "PASS_PUBLIC_FULL_LOOP_ACCEPTANCE",
+  "archive_sha256": "91039936e2e3339bfe3e43a551cac2bd4389ca66c19ed4acde5036c94ec5da63",
+  "durability": "PASS_CHECKSUM_READBACK",
+  "time_utc": "2026-09-23T03:45:40.696725+00:00",
+  "science_promotion": false,
+  "frozen_G2_G3_mutated": false,
+  "public_projection": true,
+  "private_archive_path_and_remote_pointer_omitted": true,
+  "machine_readback_source_sha256": "0178f13780bcaea79c242c40abfc26fc33b63b65c2c34c7894f32725810d9eb4"
+}
