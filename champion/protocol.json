@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "scope": "development_only",
+  "held_out": false,
+  "target_delta_class": "SAME_TARGET",
+  "workload": "float32 contiguous affine ReLU: max(0, x*0.5 + 0.25)",
+  "sizes": [4096, 262144, 1048576, 16777216],
+  "baseline": "two preallocated PyTorch elementwise outputs plus in-place clamp",
+  "candidate": "Triton single fused kernel only for n >= 1048576; baseline unchanged below",
+  "oracle": "CPU float64 calculation on deterministic binary-fraction input, cast to float32; exact equality, plus deterministic random finite and boundary checks",
+  "measurement": "CUDA events around batches of 100 calls; end event synchronize; alternating paired order; 30 separate warmup calls per implementation; allocation and compilation excluded",
+  "samples": 31,
+  "reference_samples": 61,
+  "contamination": "quarantine whole cell if any unexpected GPU PID is observed, GPU identity changes, or CUDA/correctness error; monitor every 100ms plus pre/post queries",
+  "validity": "input, oracle and environment identities preserved; below-threshold implementation evidence reusable, changed-size timing and correctness invalidated; rerun small control sentinel",
+  "FULL": "reuse unchanged medium cell; rerun small sentinel and both changed cells",
+  "B0": "independent full rerun of all cells, 61 paired samples each",
+  "B1": "actual CHIA persistent cache and bypass; scope-key tags change for changed implementation only; E0 populates, unchanged cells hit and changed cells miss",
+  "acceptance": "all exact correctness PASS, no contamination; changed-cell median speedup >= 1.15 in selective and full reference; unchanged reference ratio >= 0.95; full reference and selective decisions agree",
+  "claim_ceiling": "one hardware development trajectory and B0/B1 seed; no novelty, held-out, FULL superiority or generalization claim",
+  "budget": "3-5 hour maximum work window, retain at least 6 hours before 2026-09-24T06:59:00Z"
+}
