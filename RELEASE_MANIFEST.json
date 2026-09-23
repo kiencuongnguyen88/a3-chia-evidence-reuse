@@ -1,0 +1,36 @@
+{
+  "artifact_id": "A3_CHIA_PUBLIC_RELEASE_READY_R005",
+  "state": "RELEASE_READY_HUMAN_PUBLICATION_GATE",
+  "author": {
+    "public": "Nguyen Kien Cuong",
+    "native": "Nguyễn Kiên Cường",
+    "affiliation": "Independent Researcher"
+  },
+  "license": {
+    "spdx": "BSD-3-Clause",
+    "human_confirmed": true,
+    "confirmed_date": "2026-09-23"
+  },
+  "science": {
+    "C_128": "PRESERVED",
+    "NO_PROMOTION": true,
+    "C_035": "PRESERVED",
+    "frozen_G2_G3_mutated": false
+  },
+  "artifact_acceptance": {
+    "state": "PASS_PUBLIC_FULL_LOOP_ACCEPTANCE",
+    "claim_ceiling": "artifact_portability_and_orchestration_only",
+    "durability": "PASS_CHECKSUM_READBACK",
+    "archive_sha256": "91039936e2e3339bfe3e43a551cac2bd4389ca66c19ed4acde5036c94ec5da63",
+    "machine_readback_source_sha256": "0178f13780bcaea79c242c40abfc26fc33b63b65c2c34c7894f32725810d9eb4"
+  },
+  "publication": {
+    "published": false,
+    "github_push": false,
+    "release_url": null
+  },
+  "public_sanitization": {
+    "private_paths_removed": true,
+    "scientific_values_changed": false
+  }
+}
