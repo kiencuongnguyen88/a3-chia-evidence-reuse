@@ -1,0 +1,39 @@
+{
+  "champion_id": "EPOCH001_H100_AFFINE_RELU_FUSION",
+  "research_champion": true,
+  "runnable": true,
+  "entrypoint": "champion/verify.sh",
+  "acceptance": "PASS",
+  "scope": "development_only",
+  "target_delta_class": "SAME_TARGET",
+  "validated_sizes": [
+    4096,
+    262144,
+    1048576,
+    16777216
+  ],
+  "fusion_threshold": 1048576,
+  "predecessor": "EPOCH001_E0_BASELINE",
+  "predecessor_snapshot": "snapshots/E0_baseline",
+  "acceptance_evidence": "evidence/acceptance.json",
+  "packaged_smoke": "evidence/candidate_packaged_smoke.json",
+  "net_geomean_reference_speedup": 1.403128504135181,
+  "CHIA_commit": "16c35e92aaaf9511c6453bf94cd5cf589698f4e3",
+  "PBD_pin": "1527bef733d51d0eb9084fd4e993f38c9a2680d2",
+  "dependencies": [
+    "evidence/currentness/chia_requirements.txt",
+    "evidence/currentness/gpu_requirements.txt",
+    "runtime/deps/libpython3.12-dev_3.12.3-1ubuntu0.17_amd64.deb"
+  ],
+  "held_out": false,
+  "source_promotion": false,
+  "files": {
+    "gpu_worker.py": "e39f79e3f58df9a7df7165671ad1e51eb25a72930d406f3c8ffcd396b38f7306",
+    "baseline.py": "1ccacbb970d55f7ca9fb35dbfb273da45a08cf3bbd9dd49b54cb96a4fe960830",
+    "challenger.py": "1248a935f5f6a204c909661bf86155f0e1459e824889dfb74d5f9c523bc4011d",
+    "protocol.json": "1b03fce42f3778a908d1bb83172ba7a0ba9cf98d98e3a648a29b0aa830ae4bd4",
+    "README.md": "797bff0f9742ab482e18472926e2288680e7639c2732b539271401790962a049",
+    "verify.sh": "f707e520299281bc489ef5071bfb5daa60879ce8849b9f1ec78c754a732cb08e",
+    "verify_chia.py": "75e45dbf211e4286476305884cc452711f8a5b7125791f34eb8dcc6cb5152ff3"
+  }
+}
