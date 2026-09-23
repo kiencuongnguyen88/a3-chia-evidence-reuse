@@ -1,0 +1,12 @@
+{
+  "time": "2026-09-22T09:31:11.837022+00:00",
+  "first_affine_comparison_exists": true,
+  "shared_runtime": "same CHIA hardware_cell and gpu_worker, same planner.py; sequential paths",
+  "files": {
+    "candidate/epoch002/run.py": "7957674ca749a8cf5be32df49533ba989fc4b087596ef6ff8795f44a00198045",
+    "candidate/epoch002/planner.py": "fbad8ad72f47c46400df14fe322a6f4c7aa20a7e910472e5da615042c08dc356",
+    "candidate/epoch002/gpu_worker.py": "1cfdb3352f732a7400986e8a8617d212f48433304b352237efb477285a31dc1a",
+    "candidate/epoch002/operations.py": "7f6017fb87492b838dbe859eeff18502e232d6edaf1582d0a57ab6f052d88bc0",
+    "evidence/epoch002/reduction_matrix.json": "1e75460bdfdede761e460827aa15bef078a8fe8b3188d92ac4d2a1c59a4fad53"
+  }
+}
