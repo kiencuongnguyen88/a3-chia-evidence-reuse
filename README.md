@@ -1,6 +1,9 @@
 # Change-Aware Evidence Reuse and Sufficient Experiment Planning in CHIA — Public Release Ready R005
 
-**State:** release-ready, BSD-3-Clause licensed; not yet published; no public release URL yet.
+**State:** publicly released, BSD-3-Clause licensed; scientific claim ceiling unchanged.
+
+Public artifact URL: `https://github.com/kiencuongnguyen88/a3-chia-evidence-reuse`  
+Exact pre-publication R005 commit: `82532378ea04c5ffd0e2168f4ae00244dec837ee`.
 
 This artifact supports the submission claim that evidence-scope-aware planning can reduce measurement demand under specific change/evidence conditions, while a frozen held-out evaluation shows that the richer planner collapses to a strong adaptive baseline when those enabling signals are absent.
 
@@ -44,7 +47,7 @@ This R004-day2 candidate keeps the R003 scientific claim boundary unchanged and 
 - exact typed affine seed metadata needed to demonstrate evidence-validity behavior;
 - a bounded `acceptance/run_full_loop_acceptance.py` orchestration harness.
 
-Artifact acceptance state: **PASS_PUBLIC_FULL_LOOP_ACCEPTANCE / PASS_CHECKSUM_READBACK**. Publication itself remains Human-gated.
+Artifact acceptance state: **PASS_PUBLIC_FULL_LOOP_ACCEPTANCE / PASS_CHECKSUM_READBACK**. Public GitHub release was Human-authorized and verified after the exact R005 publication commit.
 
 A successful acceptance is an artifact-portability result only. It does not change `C_128`,
 `NO_PROMOTION`, `C_035`, or frozen G2/G3.
@@ -54,7 +57,7 @@ A successful acceptance is an artifact-portability result only. It does not chan
 
 - Project license: **BSD-3-Clause** (`LICENSE`).
 - Third-party attribution: `THIRD_PARTY_NOTICES.md`.
-- Full-loop acceptance: `results/public_full_loop_acceptance/FULL_LOOP_ACCEPTANCE.json`.
+- Full-loop acceptance: `results/public_ful_loop_acceptance/FULL_LOOP_ACCEPTANCE.json`.
 - Public durability receipt: `results/public_full_loop_acceptance/ACCEPTANCE_DURABILITY_PUBLIC_RECEIPT.json`.
 - Public-sanitization ledger: `provenance/PUBLIC_SANITIZATION_LEDGER.md`.
 

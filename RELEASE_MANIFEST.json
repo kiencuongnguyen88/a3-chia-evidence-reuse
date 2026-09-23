@@ -1,6 +1,6 @@
 {
   "artifact_id": "A3_CHIA_PUBLIC_RELEASE_READY_R005",
-  "state": "RELEASE_READY_HUMAN_PUBLICATION_GATE",
+  "state": "PUBLIC_RELEASED_VERIFIED_POST_PUBLICATION_METADATA_R006",
   "author": {
     "public": "Nguyen Kien Cuong",
     "native": "Nguyễn Kiên Cường",
@@ -25,9 +25,10 @@
     "machine_readback_source_sha256": "0178f13780bcaea79c242c40abfc26fc33b63b65c2c34c7894f32725810d9eb4"
   },
   "publication": {
-    "published": false,
-    "github_push": false,
-    "release_url": null
+    "published": true,
+    "github_push": true,
+    "release_url": "https://github.com/kiencuongnguyen88/a3-chia-evidence-reuse",
+    "exact_R005_publication_commit": "82532378ea04c5ffd0e2168f4ae00244dec837ee"
   },
   "public_sanitization": {
     "private_paths_removed": true,
