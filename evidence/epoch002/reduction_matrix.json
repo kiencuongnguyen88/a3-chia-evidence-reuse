@@ -1,0 +1,125 @@
+[
+  {
+    "id": "presentation",
+    "path": "reduction",
+    "sizes": [
+      128,
+      1024,
+      4096
+    ],
+    "weights": {
+      "128": 1,
+      "1024": 1,
+      "4096": 1
+    },
+    "implementation": "v1",
+    "batch": 100,
+    "presentation": "renamed report, same semantics"
+  },
+  {
+    "id": "weights",
+    "path": "reduction",
+    "sizes": [
+      128,
+      1024,
+      4096
+    ],
+    "weights": {
+      "128": 1,
+      "1024": 0,
+      "4096": 0
+    },
+    "implementation": "v1",
+    "batch": 100,
+    "presentation": "original"
+  },
+  {
+    "id": "added_shape",
+    "path": "reduction",
+    "sizes": [
+      128,
+      1024,
+      4096,
+      2048
+    ],
+    "weights": {
+      "128": 1,
+      "1024": 1,
+      "4096": 1,
+      "2048": 1
+    },
+    "implementation": "v1",
+    "batch": 100,
+    "presentation": "original"
+  },
+  {
+    "id": "kernel",
+    "path": "reduction",
+    "sizes": [
+      128,
+      1024,
+      4096
+    ],
+    "weights": {
+      "128": 1,
+      "1024": 1,
+      "4096": 1
+    },
+    "implementation": "v2",
+    "batch": 100,
+    "presentation": "original"
+  },
+  {
+    "id": "evaluator",
+    "path": "reduction",
+    "sizes": [
+      128,
+      1024,
+      4096
+    ],
+    "weights": {
+      "128": 1,
+      "1024": 1,
+      "4096": 1
+    },
+    "implementation": "v1",
+    "batch": 50,
+    "presentation": "original"
+  },
+  {
+    "id": "regressing_kernel",
+    "path": "reduction",
+    "sizes": [
+      128,
+      1024,
+      4096
+    ],
+    "weights": {
+      "128": 1,
+      "1024": 1,
+      "4096": 1
+    },
+    "implementation": "slow",
+    "batch": 100,
+    "presentation": "original"
+  },
+  {
+    "id": "inactive_added_shape",
+    "path": "reduction",
+    "sizes": [
+      128,
+      1024,
+      4096,
+      2048
+    ],
+    "weights": {
+      "128": 1,
+      "1024": 1,
+      "4096": 1,
+      "2048": 0
+    },
+    "implementation": "v1",
+    "batch": 100,
+    "presentation": "original"
+  }
+]
