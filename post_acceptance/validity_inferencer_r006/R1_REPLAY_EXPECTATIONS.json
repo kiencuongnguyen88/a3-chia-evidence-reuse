@@ -1,0 +1,59 @@
+{
+  "repo_anchor": "4587fa91224f2e641e623892b98783eb02048e9f",
+  "affine": {
+    "presentation": {
+      "reusable": [
+        "4096",
+        "262144",
+        "1048576",
+        "16777216"
+      ],
+      "invalid": []
+    },
+    "kernel_v2": {
+      "reusable": [
+        "4096",
+        "262144"
+      ],
+      "invalid": [
+        "1048576",
+        "16777216"
+      ]
+    },
+    "evaluator": {
+      "reusable": [],
+      "invalid": [
+        "4096",
+        "262144",
+        "1048576",
+        "16777216"
+      ]
+    }
+  },
+  "reduction": {
+    "presentation": {
+      "reusable": [
+        "128",
+        "1024",
+        "4096"
+      ],
+      "invalid": []
+    },
+    "kernel_v2": {
+      "reusable": [],
+      "invalid": [
+        "128",
+        "1024",
+        "4096"
+      ]
+    },
+    "evaluator": {
+      "reusable": [],
+      "invalid": [
+        "128",
+        "1024",
+        "4096"
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "artifact_id": "A3_CHIA_POST_ACCEPTANCE_VALIDITY_INFERENCER_R006_R008_REPAIR",
+  "relation_to_R1": "ADDITIVE_DERIVATIVE_NO_R1_MUTATION",
+  "repo_anchor_before_integration": "4587fa91224f2e641e623892b98783eb02048e9f",
+  "frozen_R1_preserved": true,
+  "champion_changed": false,
+  "scientific_promotion": false,
+  "H100_required": false,
+  "H100_event_infrastructure": "EXPIRED_UNAVAILABLE_HUMAN_REPORTED",
+  "claim_ceiling": "bounded two-consumer conservative source/replay validity inference",
+  "safety_repairs": [
+    "baseline comparator dependency",
+    "module import/static dependency",
+    "reduction setup dispatch dependency",
+    "typed dtype/layout dependency",
+    "read-only acceptance runner"
+  ],
+  "files": [
+    "README.md",
+    "validity_inferencer.py",
+    "test_validity_inferencer.py",
+    "run_cpu_acceptance.py",
+    "R1_REPLAY_EXPECTATIONS.json",
+    "R1_ANCHOR_SHA256.json",
+    "INTEGRATION_MANIFEST.json",
+    "SHA256SUMS.txt"
+  ]
+}
